@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='javascript.js' defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Grid Drawing</title>
+</head>
+<body>
+    <div class='header'>
+        <h1>Grid Drawing</h1>
+    </div>
+    <div class='main'>
+        <div class="settings">
+            <h2>Settings</h2>
+            <div class='settingsButtons'>
+                <button id='gridReset'>Reset Grid</button>
+                <button>Other Button</button>
+            </div>
+            <div class='sliderSettings'>
+                <h3>Grid Size</h3>
+            <input id='sizeSlider' type="range" min="2" max="60" value="16">
+            <div id='sizeSliderValue'>16 x 16</div>
+            </div>
+        </div>
+        <div class='gridContainer'></div>
+    </div>
+</body>
+</html>
